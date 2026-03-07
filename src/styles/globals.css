@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  
+  --color-primary: #5F9EA0;
+  --color-primary-dark: #3B6F73;
+  --color-bg-light: #E6F2F2;
+  --color-soft-grey: #F8FAFA;
+  
+  /* Dark Mode Colors */
+  --color-dark-bg: #0F172A;
+  --color-dark-card: #1E293B;
+  --color-dark-border: #334155;
+  --color-dark-text: #F1F5F9;
+  --color-dark-text-muted: #94A3B8;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-slate-800 bg-white transition-colors duration-300 dark:bg-dark-bg dark:text-dark-text;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.section-padding {
+  @apply py-20 px-6 md:px-12 lg:px-24;
+}
+
+.btn-primary {
+  @apply bg-primary text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-primary-dark shadow-md hover:shadow-lg;
+}
+
+.btn-outline {
+  @apply border-2 border-primary text-primary px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-primary hover:text-white;
+}
+
+.pill-tag {
+  @apply border border-primary text-primary px-4 py-1.5 rounded-full text-sm font-medium transition-colors hover:bg-primary hover:text-white;
+}
+
+/* Hover Darken Effect for Boxes */
+.hover-box {
+  @apply transition-all duration-300 border border-slate-100 dark:border-dark-border;
+}
+
+.hover-box:hover {
+  @apply bg-slate-50 dark:bg-slate-800/50 shadow-md -translate-y-1;
+}
+
+.card-bg {
+  @apply bg-white dark:bg-dark-card;
+}
+
+.text-muted {
+  @apply text-slate-600 dark:text-dark-text-muted;
+}

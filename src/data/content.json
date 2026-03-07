@@ -1,0 +1,152 @@
+{
+  "personalInfo": {
+    "name": "M Tanusree Reddy",
+    "title": "AI & Data Science Engineer | Full-Stack Developer",
+    "tagline": "Aspiring Software Engineer building scalable AI-driven and full-stack solutions.",
+    "email": "mre23ainds@cmrit.ac.in",
+    "location": "Bengaluru, India",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/m-tanusree-reddy/",
+      "github": "https://github.com/m-tanusree-reddy",
+      "leetcode": "https://leetcode.com/u/tanusreereddy/"
+    },
+    "resume": "https://drive.google.com/file/d/1717PX-p4AiovgqNInBiAsq_h26D87s6A/view?usp=drive_link"
+  },
+  "navbar": {
+    "logo": "tanusree.in",
+    "ctaText": "Resume"
+  },
+  "navLinks": [
+    { "name": "Home", "href": "#home" },
+    { "name": "About", "href": "#about" },
+    { "name": "Skills", "href": "#skills" },
+    { "name": "Projects", "href": "#projects" },
+    { "name": "Achievements", "href": "#achievements" },
+    { "name": "Education", "href": "#education" },
+    { "name": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "greeting": "Hi, I'm",
+    "viewWorkBtn": "View My Work",
+    "downloadResumeBtn": "Download Resume"
+  },
+  "about": {
+    "heading": "About Me",
+    "text": "Hello! I'm M Tanusree Reddy, a passionate AI & Data Science Engineer and Full-Stack Developer. I specialize in building responsive, elegant, and scalable web applications and AI-driven solutions. I enjoy solving complex problems and creating clean, user-friendly designs."
+  },
+  "skills": {
+    "heading": "My Skills",
+    "subheading": "Technologies I use to build scalable and intelligent solutions.",
+    "categories": [
+      {
+        "name": "Programming",
+        "items": ["Python", "Java", "C"]
+      },
+      {
+        "name": "Databases",
+        "items": ["MySQL", "MongoDB"]
+      },
+      {
+        "name": "AI & ML",
+        "items": ["OpenCV", "YOLOv8", "NLP", "Machine Learning"]
+      },
+      {
+        "name": "Data & Analytics",
+        "items": ["Pandas", "NumPy", "Scikit-learn", "Tableau", "Power BI", "Excel"]
+      },
+      {
+        "name": "Frameworks & Tools",
+        "items": ["React", "Flask", "Firebase", "Tailwind CSS", "Supabase", "REST APIs"]
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Projects",
+    "items": [
+      {
+        "title": "AI-Powered Recruitment Portal",
+        "description": "Built recruiter dashboard handling 500+ candidates with resume parsing & match scoring (0–100%), skill gap detection, and automated JD generation.",
+        "tech": ["React", "Firebase", "Python", "NLP", "REST APIs"],
+        "url": "https://github.com/m-tanusree-reddy"
+      },
+      {
+        "title": "Video Analysis Platform",
+        "description": "Real-time object detection using YOLOv8 with frame optimization for reduced latency and REST API integration.",
+        "tech": ["Python", "OpenCV", "YOLOv8", "Flask"],
+        "url": "https://github.com/m-tanusree-reddy"
+      },
+      {
+        "title": "Jewellery E-commerce Website",
+        "description": "Full-stack platform with authentication and a collaborative filtering recommendation engine. Features a responsive Tailwind UI.",
+        "tech": ["TypeScript", "React", "Supabase", "Tailwind CSS"],
+        "url": "https://github.com/m-tanusree-reddy"
+      }
+    ]
+  },
+  "internships": {
+    "heading": "Internships",
+    "items": [
+      {
+        "company": "Edunet - VOIS",
+        "role": "Data Analytics Intern",
+        "description": "Analyzed 7.7K+ Netflix records and built an Airbnb price prediction model using Pandas, NumPy, and Scikit-learn."
+      },
+      {
+        "company": "AICTE – Shell India Markets – Edunet Foundation",
+        "role": "AI & Data Analytics Intern",
+        "description": "Built a real-time traffic monitoring system and implemented SORT multi-object tracking using OpenCV & YOLOv8."
+      }
+    ]
+  },
+  "achievements": {
+    "heading": "Achievements",
+    "items": [
+      "Winner – FullStack Odyssey Hackathon (2025)",
+      "2nd Place – Best Mini Project (Jewellery E-commerce Website)",
+      "2nd Place – Best Mini Project (Library Management System)",
+      "3rd Place – Think Build Project Exhibition"
+    ]
+  },
+  "leadership": {
+    "heading": "Leadership & Responsibility",
+    "items": [
+      "Promotion Head – Cybernauts Club",
+      "Student Coordinator – ACE Club",
+      "Member – SWE Club",
+      "Google Student Ambassador",
+      "Student Placement Coordinator"
+    ]
+  },
+  "education": {
+    "heading": "Education",
+    "items": [
+      {
+        "degree": "Bachelor of Engineering – Artificial Intelligence & Data Science",
+        "institution": "CMR Institute of Technology",
+        "duration": "2021 - 2025"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "subheading": "Have a project idea or just want to say hi? I'd love to hear from you.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "infoHeading": "Contact Info",
+    "socialHeading": "Social Profiles"
+  },
+  "cta": {
+    "heading": "Lets work together",
+    "subtext": "I’m open to AI, full-stack, and data-driven opportunities. Let’s build impactful solutions together.",
+    "ctaBtn": "Resume",
+    "viewWorkBtn": "View My Work"
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  }
+}
