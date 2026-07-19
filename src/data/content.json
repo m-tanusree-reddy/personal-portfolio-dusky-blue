@@ -1,0 +1,177 @@
+{
+  "personalInfo": {
+    "name": "M Tanusree Reddy",
+    "title": "AI & Data Science Engineer | Full-Stack Developer",
+    "tagline": "Aspiring Software Engineer building scalable AI-driven and full-stack solutions.",
+    "email": "mre23ainds@cmrit.ac.in",
+    "location": "Bengaluru, India",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/m-tanusree-reddy/",
+      "github": "https://github.com/m-tanusree-reddy",
+      "leetcode": "https://leetcode.com/u/tanusreereddy/"
+    },
+    "resume": "https://drive.google.com/file/d/1717PX-p4AiovgqNInBiAsq_h26D87s6A/view?usp=drive_link"
+  },
+  "navbar": {
+    "logo": "tanusree.in",
+    "ctaText": "Resume"
+  },
+  "navLinks": [
+    { "name": "Home", "href": "#home" },
+    { "name": "About", "href": "#about" },
+    { "name": "Skills", "href": "#skills" },
+    { "name": "Projects", "href": "#projects" },
+    { "name": "Achievements", "href": "#achievements" },
+    { "name": "Education", "href": "#education" },
+    { "name": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "greeting": "Hi, I'm",
+    "viewWorkBtn": "View My Work",
+    "downloadResumeBtn": "Download Resume"
+  },
+  "about": {
+    "heading": "About Me",
+    "text": [
+      "Hi! I'm M Tanusree Reddy, an Artificial Intelligence & Data Science student with a strong interest in AI, Machine Learning, and Full-Stack Development. I enjoy building projects that solve real-world problems and help me improve my technical skills.",
+      "I have experience working with Python, JavaScript, React, FastAPI, SQL, and Machine Learning, and I love learning new technologies through hands-on projects. I'm always looking for opportunities to grow, collaborate, and contribute to meaningful software and AI solutions."
+    ]
+  },
+  "skills": {
+    "heading": "My Skills",
+    "subheading": "Technologies I use to build scalable and intelligent solutions.",
+    "categories": [
+      {
+        "name": "Programming",
+        "items": ["Python", "Java", "C"]
+      },
+      {
+        "name": "Databases",
+        "items": ["MySQL", "MongoDB"]
+      },
+      {
+        "name": "AI & ML",
+        "items": ["OpenCV", "YOLOv8", "NLP", "Machine Learning"]
+      },
+      {
+        "name": "Data & Analytics",
+        "items": ["Pandas", "NumPy", "Scikit-learn", "Tableau", "Power BI", "Excel"]
+      },
+      {
+        "name": "Frameworks & Tools",
+        "items": ["React", "Flask", "Firebase", "Tailwind CSS", "Supabase", "REST APIs"]
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Projects",
+    "items": [
+      {
+        "title": "Credinity AI | AI-Powered Credit Risk Prediction Platform",
+        "description": "Built an end-to-end credit risk prediction platform with FastAPI, React, and Scikit-learn for real-time and batch predictions. Developed and optimized Random Forest and XGBoost models using feature engineering and model evaluation metrics (ROC-AUC, Precision, Recall, F1-score). Integrated SHAP Explainable AI to generate transparent prediction insights and improve model interpretability.",
+        "tech": ["Python", "FastAPI", "Scikit-learn", "React", "TypeScript", "SHAP"],
+        "url": "https://github.com/m-tanusree-reddy"
+      },
+      {
+        "title": "Pipeline Failure Detection | AI-Powered CI/CD Debugging Assistant",
+        "description": "Developed an AI-powered system to detect and analyze GitHub Actions pipeline failures by parsing CI/CD logs and identifying root causes. Integrated GitHub Actions API and Gemini API to retrieve workflow logs, summarize failures, and generate actionable debugging recommendations. Built a modular backend using FastAPI and Pydantic for log processing, error classification, and automated failure analysis.",
+        "tech": ["Python", "FastAPI", "GitHub Actions API", "Gemini API", "Pydantic"],
+        "url": "https://github.com/m-tanusree-reddy"
+      },
+      {
+        "title": "SQL Genie | AI-Powered Natural Language to SQL Generator",
+        "description": "Built an AI-powered application that converts natural language queries into optimized SQL using the Gemini API and database schema context. Developed a FastAPI backend with schema-aware prompt engineering, query validation, and SQL generation for accurate database interactions. Designed a responsive React + TypeScript frontend with query history, syntax highlighting, and seamless API integration for an intuitive user experience.",
+        "tech": ["React", "TypeScript", "FastAPI", "Python", "Gemini API", "SQLite", "MySQL"],
+        "url": "https://github.com/m-tanusree-reddy"
+      },
+      {
+        "title": "AI-Powered Recruitment Portal",
+        "description": "Built recruiter dashboard handling 500+ candidates with resume parsing & match scoring (0–100%), skill gap detection, and automated JD generation.",
+        "tech": ["React", "Firebase", "Python", "NLP", "REST APIs"],
+        "url": "https://github.com/m-tanusree-reddy"
+      },
+      {
+        "title": "Video Analysis Platform",
+        "description": "Real-time object detection using YOLOv8 with frame optimization for reduced latency and REST API integration.",
+        "tech": ["Python", "OpenCV", "YOLOv8", "Flask"],
+        "url": "https://github.com/m-tanusree-reddy"
+      },
+      {
+        "title": "Jewellery E-commerce Website",
+        "description": "Full-stack platform with authentication and a collaborative filtering recommendation engine. Features a responsive Tailwind UI.",
+        "tech": ["TypeScript", "React", "Supabase", "Tailwind CSS"],
+        "url": "https://github.com/m-tanusree-reddy"
+      }
+    ]
+  },
+  "internships": {
+    "heading": "Internships",
+    "items": [
+      {
+        "company": "Edunet - VOIS",
+        "role": "Data Analytics Intern",
+        "description": "Analyzed 7.7K+ Netflix records and built an Airbnb price prediction model using Pandas, NumPy, and Scikit-learn."
+      },
+      {
+        "company": "AICTE – Shell India Markets – Edunet Foundation",
+        "role": "AI & Data Analytics Intern",
+        "description": "Built a real-time traffic monitoring system and implemented SORT multi-object tracking using OpenCV & YOLOv8."
+      }
+    ]
+  },
+  "achievements": {
+    "heading": "Achievements",
+    "items": [
+      "Recognized as a Top Performing Candidate at the Economic Times AI Hackathon 2026.",
+      "3rd Place, Best Mini Project (Payshield), CMRIT Exhibition (2026)",
+      "Finalist HCL Guvi Hackathon (2026)",
+      "Winner – FullStack Odyssey Hackathon (2025)",
+      "2nd place Winner, Fullstack Odyssey Hackathon, CMRIT (2025)",
+      "2nd Place – Best Mini Project (Jewellery E-commerce Website)",
+      "2nd Place – Best Mini Project (Library Management System)",
+      "3rd Place – Think Build Project Exhibition"
+    ]
+  },
+  "leadership": {
+    "heading": "Leadership & Responsibility",
+    "items": [
+      "Promotion Head – Cybernauts Club",
+      "Student Coordinator – ACE Club",
+      "Member – SWE Club",
+      "Google Student Ambassador",
+      "Student Placement Coordinator"
+    ]
+  },
+  "education": {
+    "heading": "Education",
+    "items": [
+      {
+        "degree": "Bachelor of Engineering – Artificial Intelligence & Data Science",
+        "institution": "CMR Institute of Technology",
+        "duration": "2021 - 2025"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "subheading": "Have a project idea or just want to say hi? I'd love to hear from you.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "infoHeading": "Contact Info",
+    "socialHeading": "Social Profiles"
+  },
+  "cta": {
+    "heading": "Lets work together",
+    "subtext": "I’m open to AI, full-stack, and data-driven opportunities. Let’s build impactful solutions together.",
+    "ctaBtn": "Resume",
+    "viewWorkBtn": "View My Work"
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  }
+}

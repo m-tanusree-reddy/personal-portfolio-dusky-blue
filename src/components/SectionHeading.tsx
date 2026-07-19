@@ -1,0 +1,22 @@
+import { motion } from "motion/react";
+
+interface SectionHeadingProps {
+  title: string;
+  subtitle?: string;
+  centered?: boolean;
+}
+
+export default function SectionHeading({ title, subtitle, centered = true }: SectionHeadingProps) {
+  return (
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+      className={`mb-12 ${centered ? "text-center" : "text-left"}`}
+    >
+      <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">{title}</h2>
+      {subtitle && <p className="text-lg text-slate-600 dark:text-dark-text-muted max-w-2xl mx-auto">{subtitle}</p>}
+    </motion.div>
+  );
+}
