@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import content from "../data/content.json";
+import profilePic from "../profile.png";
 
 export default function Hero() {
   const { name, title, tagline } = content.personalInfo;
@@ -46,10 +47,9 @@ export default function Hero() {
           >
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl border-8 border-white dark:border-dark-border">
               <img 
-                src="https://i.postimg.cc/PJ5gkfhD/upscaled-pic2.png" 
+                src={profilePic} 
                 alt={name} 
                 className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
               />
             </div>
             {/* Decorative elements */}

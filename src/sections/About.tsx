@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import content from "../data/content.json";
 import SectionHeading from "../components/SectionHeading";
 import { Linkedin, Github, Code } from "lucide-react";
+import profilePic from "../profile.png";
 
 export default function About() {
   const { heading, text } = content.about;
@@ -22,10 +23,9 @@ export default function About() {
           >
             <div className="aspect-square rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="https://i.postimg.cc/PJ5gkfhD/upscaled-pic2.png" 
+                src={profilePic} 
                 alt="About Me" 
                 className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-primary/5 rounded-full -z-10 blur-3xl"></div>
